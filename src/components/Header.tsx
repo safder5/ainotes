@@ -28,7 +28,7 @@ async function Header() {
           priority
         />
         <h1 className="flex flex-col pb-1 text-2xl font-semibold leading-6">
-          GOAT <span>Notes</span>
+          Notes <span>AI</span>
         </h1>
       </Link>
       <div className="flex gap-4">

@@ -98,7 +98,7 @@ function AskAIButton({ user }: Props) {
           <Button variant="secondary">Ask AI</Button>
         </DialogTrigger>
         <DialogContent
-          className="custom-scrollbarflex h-85vh max-w-4xl flex-col overflow-y-auto"
+          className="custom-scrollbar flex h-[80vh] max-w-5xl flex-col overflow-y-auto"
           ref={contentRef}
         >
           <DialogHeader>
@@ -133,10 +133,10 @@ function AskAIButton({ user }: Props) {
               placeholder="Ask me anything about your notes..."
               className="resize-none rounded-none border-none bg-transparent p-0 shadow-none placeholder:text-muted-foreground focus-visible:ring-0 focus ring-offset-0 "
               style={{
-                minHeight: "0",
+                minHeight: "40px",
                 lineHeight: "normal",
               }}
-              rows={1}
+              rows={2}
               onInput={handleInput}
               onKeyDown={handlekeyDown}
               value={questionText}
