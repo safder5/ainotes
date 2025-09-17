@@ -1,7 +1,5 @@
 import { createServerClient } from "@supabase/ssr";
-import { url } from "inspector";
 import { NextResponse, type NextRequest } from "next/server";
-import { use } from "react";
 
 export async function middleware(request: NextRequest) {
   return await updateSession(request);

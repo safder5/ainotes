@@ -5,7 +5,6 @@ import { User } from "@supabase/supabase-js";
 import { Button } from "@/components/ui/button";
 import {
   Dialog,
-  DialogClose,
   DialogContent,
   DialogDescription,
   DialogHeader,
