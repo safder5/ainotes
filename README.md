@@ -2,6 +2,9 @@
 
 A simple AI-powered note-taking application that lets you ask questions about your notes and get intelligent answers based only on the content you've written.
 
+# Demo
+Demo coming soon...
+
 ## Features
 
 - 📝 **Create & Edit Notes** - Write and manage your personal notes
@@ -192,3 +195,7 @@ If you found this project helpful for learning, please consider giving it a ⭐ 
 ---
 
 Built with ❤️ to help developers learn modern full-stack development
+
+Acknowledgments
+Special thanks to coleblender for the amazing YouTube tutorial that helped build this project! Check out his channel for more full-stack development content.https://www.youtube.com/channel/UCVJbOTT1tHkeG8UxUUVyH6w
+
